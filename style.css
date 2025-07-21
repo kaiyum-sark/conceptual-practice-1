@@ -16,6 +16,10 @@
   color: white;
   border: none;
 }
+.btn-white{
+  background-color: white;
+  color:#dd0000;
+}
 /* Custom Style  */
 .banner {
   display: flex;
@@ -44,4 +48,23 @@
   height: 500px;
   box-sizing: content-box;
   padding-top: 20px;
+}
+
+/* Upcoming Matches  */
+.upcoming-matches{
+  display: flex;
+  gap: 20px;
+}
+.upcoming-matches-left{
+  background-color: black;
+  padding: 20px;
+  width: 25%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 15px;
+}
+.upcoming-matches-right{
+  background-color: yellow;
+  flex: 1;
 }
