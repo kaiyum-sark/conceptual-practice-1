@@ -63,7 +63,12 @@
   border-radius: 15px;
 }
 .upcoming-matches-right{
+  width: 100%;
   flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  place-content: center;
 }
 .upcoming-matches-left .btn:nth-child(1),
 .upcoming-matches-left .btn:nth-child(2)
@@ -71,9 +76,9 @@
   background-color: white;
   color: #dd0000;
 }
-.upcoming-matches-right .card{
+.card{
   border-radius: 10px 10px 0 0;
-  border: 2px solid #161616cc;
+  border: 2px solid #8a89893d;
 }
 .upcoming-matches-right .card img{
   height: 180px;
@@ -90,9 +95,13 @@
   font-size: 18px;
   font-weight: 500;
 }
+.card-body{
+  padding: 15px;
+}
 .card-bottom{
   display: flex;
   gap: 20px;
   color: #161616cc;
+  
   
 }
