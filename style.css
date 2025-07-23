@@ -146,4 +146,10 @@
     max-width: 80%;
     margin: 0 auto;
   }
+  .upcoming-matches-left{
+    flex-direction: column;
+  }
+  .upcoming-matches-right{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
